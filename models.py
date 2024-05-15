@@ -35,8 +35,8 @@ models_repo = {
         "obj_filename": "skull/skull.obj",
         "texture_filename": "skull/skull.jpg",
         "draw_type": "QUADS",
-        "translation": [-26, 2, -23],
-        "scale": [0.07, 0.07, 0.07],
+        "translation": [-26, 2.8, -23],
+        "scale": [0.055, 0.055, 0.055],
         "angles": [-90, 45, 0],
     },
     "big_skull": {
