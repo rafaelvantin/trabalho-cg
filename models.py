@@ -6,6 +6,8 @@ models_repo = {
         "translation": [-26, 0.8, -18],
         "scale": [0.6, 0.6, 0.6],
         "angles": [0, 0, 0],
+        "light_source_index": 1,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "skybox": {
         "obj_filename": "sky/sky.obj",
@@ -14,22 +16,28 @@ models_repo = {
         "translation": [0, 0, 0],
         "scale": [3, 3, 3],
         "angles": [0, 0, 0],
+        "light_source_index": -1,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "terrain_grass": {
-        "obj_filename": "terrain/terreno.obj",
+        "obj_filename": "terrain/terrain_adjusted.obj",
         "texture_filename": "terrain/grass.jpg",
         "draw_type": "TRIANGLE",
         "translation": [0, 0, 0],
         "scale": [200, 1, 200],
         "angles": [0, 0, 0],
+        "light_source_index": 0,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "terrain_sand": {
-        "obj_filename": "terrain/terreno.obj",
+        "obj_filename": "terrain/terrain_adjusted.obj",
         "texture_filename": "terrain/sand.jpeg",
         "draw_type": "TRIANGLE",
         "translation": [25, 0.1, 50],
         "scale": [50, 1, 50],
         "angles": [0, 0, 0],
+        "light_source_index": 0,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "small_skull": {
         "obj_filename": "skull/skull.obj",
@@ -38,6 +46,8 @@ models_repo = {
         "translation": [-26, 2.8, -23],
         "scale": [0.055, 0.055, 0.055],
         "angles": [-90, 45, 0],
+        "light_source_index": 1,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "big_skull": {
         "obj_filename": "skull/skull.obj",
@@ -46,6 +56,8 @@ models_repo = {
         "translation": [65, 29, 15],
         "scale": [0.7, 0.7, 0.7],
         "angles": [-90, 0, 0],
+        "light_source_index": 0,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "pineapple": {
         "obj_filename": "pineapple/pineapple.obj",
@@ -54,6 +66,8 @@ models_repo = {
         "translation": [-26, 1.4, -18],
         "scale": [0.06, 0.06, 0.06],
         "angles": [-90, 0, 0],
+        "light_source_index": 1,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "cat": {
         "obj_filename": "cat/cat.obj",
@@ -62,6 +76,8 @@ models_repo = {
         "translation": [-17, 0.66, -8],
         "scale": [0.042, 0.042, 0.042],
         "angles": [-90, 100, 0],
+        "light_source_index": 0,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "watchtower": {
         "obj_filename": "watchtower/watchtower.obj",
@@ -70,6 +86,8 @@ models_repo = {
         "translation": [65, -3, 15],
         "scale": [2, 3.5, 2],
         "angles": [0, 0, 0],
+        "light_source_index": 0,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
     "farmhouse": {
         "obj_filename": "farmhouse/farmhouse_adjusted.obj",
@@ -78,5 +96,7 @@ models_repo = {
         "translation": [-20, 0, -15],
         "scale": [0.5, 0.5, 0.5],
         "angles": [0, -135, 0],
+        "light_source_index": 1,
+        "light_coefs": [1.0, 1.0, 1.0, 1.0],
     },
 }
